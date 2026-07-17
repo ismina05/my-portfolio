@@ -8,7 +8,7 @@
                 alignment="center" 
             />
             <p class="text-[#4A5568] dark:text-[#CBD5E1] text-lg max-w-2xl mx-auto text-center mt-4 transition-colors duration-300">
-                Saya selalu terbuka untuk mendiskusikan peluang magang, pekerjaan lepas, kolaborasi, atau sekadar terhubung dengan developer lain.
+                Saya terbuka untuk kesempatan magang, kolaborasi, maupun diskusi seputar pengembangan web. Jangan ragu untuk menghubungi saya melalui email atau LinkedIn.
             </p>
         </div>
 
@@ -49,32 +49,18 @@
 
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div>
-                                <label for="name" class="block text-sm font-bold text-[#0F2C59] dark:text-[#F8FAFC] mb-2 transition-colors duration-300">Nama Lengkap</label>
+                                <label for="name" class="block text-sm font-bold text-[#0F2C59] dark:text-[#F8FAFC] mb-2 transition-colors duration-300">Nama</label>
                                 <x-input type="text" id="name" name="name" placeholder="John Doe" required />
                             </div>
                             <div>
-                                <label for="email" class="block text-sm font-bold text-[#0F2C59] dark:text-[#F8FAFC] mb-2 transition-colors duration-300">Alamat Email</label>
+                                <label for="email" class="block text-sm font-bold text-[#0F2C59] dark:text-[#F8FAFC] mb-2 transition-colors duration-300">Email</label>
                                 <x-input type="email" id="email" name="email" placeholder="john@example.com" required />
                             </div>
                         </div>
 
                         <div>
-                            <label for="subject" class="block text-sm font-bold text-[#0F2C59] dark:text-[#F8FAFC] mb-2 transition-colors duration-300">Subjek</label>
-                            <x-input type="text" id="subject" name="subject" placeholder="Pertanyaan Proyek" required />
-                        </div>
-
-                        <div>
                             <label for="message" class="block text-sm font-bold text-[#0F2C59] dark:text-[#F8FAFC] mb-2 transition-colors duration-300">Pesan</label>
-                            <x-textarea id="message" name="message" placeholder="Halo, saya ingin mendiskusikan tentang..." required></x-textarea>
-                        </div>
-
-                        <div class="flex items-start">
-                            <div class="flex items-center h-5">
-                                <input id="policy" name="policy" type="checkbox" required class="w-5 h-5 text-[#3B82F6] dark:text-[#5FA8FF] bg-white dark:bg-[#0F172A] border-[#E2E8F0] dark:border-[#334155] rounded focus:ring-[#3B82F6] dark:focus:ring-[#5FA8FF] focus:ring-2 transition-colors cursor-pointer">
-                            </div>
-                            <div class="ml-3 text-sm">
-                                <label for="policy" class="font-medium text-[#4A5568] dark:text-[#CBD5E1] cursor-pointer transition-colors duration-300">Saya setuju dengan kebijakan privasi dan bersedia dihubungi.</label>
-                            </div>
+                            <x-textarea id="message" name="message" placeholder="Tulis pesan Anda di sini..." required></x-textarea>
                         </div>
 
                         <div>
