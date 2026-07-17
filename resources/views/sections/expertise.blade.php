@@ -13,7 +13,7 @@
             </p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 xl:gap-8 items-stretch max-w-5xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 xl:gap-8 items-stretch w-full mx-auto">
             @foreach($expertise['items'] as $index => $item)
                 <div data-aos="fade-up" data-aos-delay="{{ ($index + 1) * 100 }}" class="h-full">
                     <x-card.feature 
