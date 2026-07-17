@@ -15,16 +15,6 @@
                     <div class="absolute inset-0 bg-[#0F2C59]/10 dark:bg-[#0F172A]/30 group-hover:bg-transparent transition-colors duration-500"></div>
                 </div>
 
-                <!-- Floating Card 1: Internship -->
-                <div class="absolute top-8 -right-4 md:-right-8 bg-white dark:bg-[#1E293B] p-3 md:p-4 rounded-xl shadow-xl border border-[#E2E8F0] dark:border-[#334155] z-20 flex items-center space-x-3 transition-colors duration-300" style="animation: float 5s ease-in-out infinite;">
-                    <div class="w-10 h-10 rounded-full bg-green-50 dark:bg-green-500/20 flex items-center justify-center text-green-500 dark:text-green-400 flex-shrink-0 transition-colors duration-300">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-                    </div>
-                    <div>
-                        <span class="block text-[10px] md:text-xs text-[#4A5568] dark:text-[#CBD5E1] font-semibold uppercase transition-colors duration-300">Status</span>
-                        <span class="block text-xs md:text-sm font-bold text-[#0F2C59] dark:text-[#F8FAFC] transition-colors duration-300">Open to Internship</span>
-                    </div>
-                </div>
 
                 <!-- Floating Card 2: Location -->
                 <div class="absolute bottom-10 -left-4 md:-left-8 bg-white dark:bg-[#1E293B] p-3 md:p-4 rounded-xl shadow-xl border border-[#E2E8F0] dark:border-[#334155] z-20 flex items-center space-x-3 transition-colors duration-300" style="animation: float 4s ease-in-out 2s infinite;">
