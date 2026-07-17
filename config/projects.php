@@ -32,8 +32,8 @@ return [
             'technologies' => ['Laravel', 'PHP', 'JavaScript', 'Vue.js', 'Chart.js', 'Tailwind CSS'],
             'status' => 'Selesai',
             'image' => 'https://images.unsplash.com/photo-1484480974693-6ca0a78f1014?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-            'github_url' => 'https://github.com/pearlneo/CeritAja.git',
-            'demo_url' => 'https://ceritaja.my.id/',
+            'github_url' => 'https://github.com/ismina05/ceritaja3.git',
+            'demo_url' => 'https://ceritaja.site.je/',
         ],
         [
             'title' => 'EcoHabit',
