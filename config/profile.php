@@ -8,7 +8,7 @@ return [
         'UI/UX Enthusiast'
     ],
     'greeting' => '👋 Halo, saya',
-    'hero_description' => 'Saya adalah mahasiswa S1 Teknologi Informasi Universitas Negeri Yogyakarta yang berfokus pada Frontend Development dan pengembangan aplikasi web. Saya aktif mengembangkan kemampuan melalui praktik industri, proyek akademik maupun pribadi, serta pengalaman organisasi untuk membangun aplikasi yang fungsional, responsif, dan mudah digunakan.',
+    'hero_description' => 'Saya adalah mahasiswa S1 Teknologi Informasi Universitas Negeri Yogyakarta yang berfokus pada Frontend Development dan pengembangan aplikasi web. Saya aktif mengembangkan kemampuan melalui praktik industri, proyek akademik, proyek pribadi, dan pengalaman organisasi untuk membangun aplikasi yang responsif, fungsional, dan mudah digunakan.',
     'avatar_url' => 'image/foto-profil.jpg',
     'hero_floating_cards' => [
         [
