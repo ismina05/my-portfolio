@@ -4,11 +4,11 @@ return [
     'name' => 'Ismi Nuraini Azizah',
     'titles' => [
         'Mahasiswa Teknologi Informasi',
-        'Web Developer',
+        'Frontend Web Developer',
         'UI/UX Enthusiast'
     ],
     'greeting' => '👋 Halo, saya',
-    'hero_description' => 'Mahasiswa S1 Teknologi Informasi Universitas Negeri Yogyakarta semester 7 yang memiliki minat pada Web Development, UI/UX Design, dan Sistem Informasi. Selama praktik industri di PT Farma Global Teknologi, saya berkontribusi dalam pengembangan dan kustomisasi Electronic Document (E-Doc) pada Sistem Informasi Manajemen Rumah Sakit (SIMRS). Saat ini saya terus mengembangkan kemampuan dalam pengembangan aplikasi web menggunakan Laravel, PHP, JavaScript, MySQL, REST API, dan Figma melalui perkuliahan, proyek pribadi, serta pengalaman praktik industri.',
+    'hero_description' => 'Saya adalah mahasiswa S1 Teknologi Informasi Universitas Negeri Yogyakarta yang berfokus pada Frontend Development dan pengembangan aplikasi web. Saya aktif mengembangkan kemampuan melalui praktik industri, proyek akademik maupun pribadi, serta pengalaman organisasi untuk membangun aplikasi yang fungsional, responsif, dan mudah digunakan.',
     'avatar_url' => 'image/foto-profil.jpg',
     'hero_floating_cards' => [
         [

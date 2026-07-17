@@ -15,29 +15,15 @@
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 xl:gap-8 items-stretch max-w-5xl mx-auto">
             @foreach($expertise['items'] as $index => $item)
-                @if($index === 4)
-                    <div data-aos="fade-up" data-aos-delay="{{ ($index + 1) * 100 }}" class="h-full md:col-span-2 flex justify-center">
-                        <div class="w-full md:w-[80%] lg:w-[75%] h-full">
-                            <x-card.feature 
-                                title="{{ $item['title'] }}" 
-                                :skills="$item['skills'] ?? null"
-                                :description="$item['description'] ?? null"
-                            >
-                                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">{!! $item['icon'] !!}</svg>
-                            </x-card.feature>
-                        </div>
-                    </div>
-                @else
-                    <div data-aos="fade-up" data-aos-delay="{{ ($index + 1) * 100 }}" class="h-full">
-                        <x-card.feature 
-                            title="{{ $item['title'] }}" 
-                            :skills="$item['skills'] ?? null"
-                            :description="$item['description'] ?? null"
-                        >
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">{!! $item['icon'] !!}</svg>
-                        </x-card.feature>
-                    </div>
-                @endif
+                <div data-aos="fade-up" data-aos-delay="{{ ($index + 1) * 100 }}" class="h-full">
+                    <x-card.feature 
+                        title="{{ $item['title'] }}" 
+                        :skills="$item['skills'] ?? null"
+                        :description="$item['description'] ?? null"
+                    >
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">{!! $item['icon'] !!}</svg>
+                    </x-card.feature>
+                </div>
             @endforeach
         </div>
     </div>

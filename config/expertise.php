@@ -27,6 +27,12 @@ return [
             'title' => 'Web Development',
             'skills' => ['REST API', 'Responsive Web Design', 'UI/UX Design'],
             'icon' => '<circle stroke-linecap="round" stroke-linejoin="round" cx="12" cy="12" r="10"/><path stroke-linecap="round" stroke-linejoin="round" d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path stroke-linecap="round" stroke-linejoin="round" d="M2 12h20"/>'
+        ],
+        [
+            'title' => '🎥 Digital Media & VR',
+            'description' => 'Pengalaman dalam dokumentasi digital menggunakan kamera 360°, pembuatan konten 360°, dokumentasi kegiatan, serta pendampingan penggunaan perangkat Oculus VR pada Program KAVVIAR.',
+            'skills' => ['Multimedia 360°', '360° Content Creation', 'Oculus VR', 'Digital Documentation'],
+            'icon' => '<path stroke-linecap="round" stroke-linejoin="round" d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3" stroke-linecap="round" stroke-linejoin="round"/>'
         ]
     ]
 ];

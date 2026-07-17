@@ -9,6 +9,12 @@
     
     <h3 class="text-lg font-bold text-[#173B63] dark:text-[#F8FAFC] mb-5 group-hover:text-[#5FA8FF] transition-colors duration-300">{{ $title }}</h3>
     
+    @if($description)
+        <p class="text-[#4A5568] dark:text-[#CBD5E1] text-sm leading-relaxed mb-5 group-hover:text-gray-600 dark:group-hover:text-[#F8FAFC] transition-colors duration-300 {{ !$skills ? 'mt-auto' : '' }}">
+            {{ $description }}
+        </p>
+    @endif
+    
     @if($skills && is_array($skills))
         <div class="flex flex-wrap gap-2.5 justify-center mt-auto w-full">
             @foreach($skills as $skill)
@@ -17,9 +23,5 @@
                 </span>
             @endforeach
         </div>
-    @elseif($description)
-        <p class="text-[#4A5568] dark:text-[#CBD5E1] text-sm leading-relaxed group-hover:text-gray-600 dark:group-hover:text-[#F8FAFC] transition-colors duration-300 mt-auto">
-            {{ $description }}
-        </p>
     @endif
 </div>
