@@ -51,18 +51,24 @@
                 </div>
 
                 <!-- Personal Info List -->
-                <div class="bg-white dark:bg-[#1E293B] p-4 sm:p-5 rounded-2xl shadow-sm border border-[#E2E8F0] dark:border-[#334155] mb-8 transition-colors duration-300">
-                    <x-card.personal-info label="Nama" value="Ismi Nuraini Azizah" />
-                    <x-card.personal-info label="Universitas" value="Universitas Negeri Yogyakarta" />
-                    <x-card.personal-info label="Program Studi" value="S1 Teknologi Informasi" />
-                    <x-card.personal-info label="Semester" value="7" />
-                    <x-card.personal-info label="IPK" value="3.83 / 4.00" />
-                    <x-card.personal-info label="Lokasi" value="Sleman, Yogyakarta" />
+                <div class="bg-white dark:bg-[#1E293B] p-5 sm:p-6 rounded-2xl shadow-sm border border-[#E2E8F0] dark:border-[#334155] mb-8 transition-colors duration-300">
+                    <h4 class="text-sm font-bold text-[#0F2C59] dark:text-[#F8FAFC] uppercase tracking-wider mb-4">Informasi Singkat</h4>
+                    <ul class="space-y-4">
+                        <li class="flex items-center text-[#4A5568] dark:text-[#CBD5E1] text-base font-medium">
+                            <span class="mr-3 text-xl leading-none">📍</span> Sleman, Yogyakarta
+                        </li>
+                        <li class="flex items-center text-[#4A5568] dark:text-[#CBD5E1] text-base font-medium">
+                            <span class="mr-3 text-xl leading-none">🎓</span> Universitas Negeri Yogyakarta
+                        </li>
+                        <li class="flex items-center text-[#4A5568] dark:text-[#CBD5E1] text-base font-medium">
+                            <span class="mr-3 text-xl leading-none">⭐</span> IPK 3.83 / 4.00
+                        </li>
+                    </ul>
                 </div>
 
                 <!-- Strengths -->
                 <div>
-                    <h4 class="text-sm font-bold text-[#0F2C59] dark:text-[#F8FAFC] uppercase tracking-wider mb-4">Kekuatan Utama</h4>
+                    <h4 class="text-sm font-bold text-[#0F2C59] dark:text-[#F8FAFC] uppercase tracking-wider mb-4">Soft Skills</h4>
                     <div class="grid grid-cols-2 gap-3">
                         @foreach($profile['about_strengths'] as $strength)
                             <x-badge-strength class="w-full justify-start sm:justify-center">{{ $strength }}</x-badge-strength>

@@ -20,17 +20,17 @@ return [
     ],
     'about_image' => 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     'about_text_paragraphs' => [
-        "Saya adalah mahasiswa S1 Teknologi Informasi Universitas Negeri Yogyakarta semester 7 yang memiliki ketertarikan pada Web Development, UI/UX Design, dan pengembangan aplikasi berbasis web.",
-        "Selama praktik industri di PT Farma Global Teknologi, saya berkontribusi dalam pengembangan dan kustomisasi Electronic Document (E-Doc) pada Sistem Informasi Manajemen Rumah Sakit (SIMRS). Selain itu, saya terus mengembangkan kemampuan melalui berbagai proyek akademik, proyek pribadi, serta pengalaman organisasi untuk membangun aplikasi yang responsif, fungsional, dan berorientasi pada kebutuhan pengguna."
+        "Sebagai mahasiswa Teknologi Informasi, saya berfokus pada Frontend Development dan pengembangan aplikasi web. Berbagai pengalaman dari praktik industri, proyek, dan organisasi membantu saya mengasah kemampuan teknis sekaligus cara bekerja dalam tim.",
+        "Saya menggunakan Laravel, PHP, JavaScript, Tailwind CSS, REST API, dan Figma untuk membangun aplikasi web yang responsif, fungsional, dan mudah digunakan."
     ],
     'about_strengths' => [
-        'Kolaborasi Tim',
-        'Kepemimpinan',
-        'Komunikasi',
-        'Adaptif',
-        'Pemecahan Masalah',
-        'Manajemen Waktu',
-        'Berorientasi pada Detail'
+        'Team Collaboration',
+        'Leadership',
+        'Communication',
+        'Problem Solving',
+        'Adaptability',
+        'Time Management',
+        'Attention to Detail'
     ],
     'footer_brand' => 'Ismi Nuraini Azizah',
     'footer_description' => 'Saya membangun pengalaman digital yang pixel-perfect, interaktif, dan dapat diakses dengan baik.',
