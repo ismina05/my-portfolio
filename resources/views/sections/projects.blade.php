@@ -25,6 +25,8 @@
                             :githubUrl="$project['github_url']"
                             :demoUrl="$project['demo_url']"
                             :isPrivate="$project['is_private'] ?? false"
+                            :githubLabel="$project['github_label'] ?? 'GitHub'"
+                            :demoLabel="$project['demo_label'] ?? 'Live Demo'"
                         />
                     </div>
                 @endforeach
@@ -47,6 +49,8 @@
                             :githubUrl="$project['github_url']"
                             :demoUrl="$project['demo_url']"
                             :isPrivate="$project['is_private'] ?? false"
+                            :githubLabel="$project['github_label'] ?? 'GitHub'"
+                            :demoLabel="$project['demo_label'] ?? 'Live Demo'"
                         />
                     </div>
                 @endforeach
