@@ -82,7 +82,7 @@
 
                 <!-- Buttons -->
                 <div class="flex flex-wrap gap-4 mt-7">
-                    <x-button.outline href="https://drive.google.com/file/d/18XDfkb3l818Z1giUWIz3g4vGhB-Ds2jv/view?usp=drive_link" target="_blank">
+                    <x-button.outline href="https://drive.google.com/file/d/1OdXVE6KUIUZN_WUFUpmNu-o2YD52lG2x/view?usp=sharing" target="_blank">
                         Unduh CV
                     </x-button.outline>
                     <x-button.outline href="#projects">

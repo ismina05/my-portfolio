@@ -32,7 +32,7 @@
 
                 <!-- CTA Buttons -->
                 <div class="flex flex-wrap gap-4" data-aos="fade-up" data-aos-delay="600">
-                    <x-button.outline href="https://drive.google.com/file/d/1JuEBtwdeLra6uV0Tw55eC16yl896mJ0h/view?usp=sharing" target="_blank">
+                    <x-button.outline href="https://drive.google.com/file/d/1OdXVE6KUIUZN_WUFUpmNu-o2YD52lG2x/view?usp=sharing" target="_blank">
                         Unduh CV
                     </x-button.outline>
                     <x-button.outline href="#projects">

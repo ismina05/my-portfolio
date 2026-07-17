@@ -53,7 +53,7 @@
             <!-- Actions -->
             <div class="hidden xl:flex items-center gap-4 2xl:gap-6">
                 <x-theme-toggle />
-                <x-button.primary href="https://drive.google.com/file/d/18XDfkb3l818Z1giUWIz3g4vGhB-Ds2jv/view?usp=drive_link" target="_blank" class="whitespace-nowrap">
+                <x-button.primary href="https://drive.google.com/file/d/1OdXVE6KUIUZN_WUFUpmNu-o2YD52lG2x/view?usp=sharing" target="_blank" class="whitespace-nowrap">
                     Unduh CV
                 </x-button.primary>
             </div>
@@ -106,7 +106,7 @@
              
              <div class="pt-6 w-full flex flex-col items-center justify-center border-t border-gray-100 dark:border-[#334155] mt-6 space-y-6 transition-colors duration-300">
                  <x-theme-toggle />
-                 <x-button.primary href="https://drive.google.com/file/d/18XDfkb3l818Z1giUWIz3g4vGhB-Ds2jv/view?usp=drive_link" target="_blank" class="w-full max-w-xs text-center">
+                 <x-button.primary href="https://drive.google.com/file/d/1OdXVE6KUIUZN_WUFUpmNu-o2YD52lG2x/view?usp=sharing" target="_blank" class="w-full max-w-xs text-center">
                      Unduh CV
                  </x-button.primary>
              </div>
