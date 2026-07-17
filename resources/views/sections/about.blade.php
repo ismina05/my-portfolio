@@ -51,19 +51,10 @@
                 </div>
 
                 <!-- Personal Info List -->
-                <div class="bg-white dark:bg-[#1E293B] p-5 sm:p-6 rounded-2xl shadow-sm border border-[#E2E8F0] dark:border-[#334155] mb-8 transition-colors duration-300">
-                    <h4 class="text-sm font-bold text-[#0F2C59] dark:text-[#F8FAFC] uppercase tracking-wider mb-4">Informasi Singkat</h4>
-                    <ul class="space-y-4">
-                        <li class="flex items-center text-[#4A5568] dark:text-[#CBD5E1] text-base font-medium">
-                            <span class="mr-3 text-xl leading-none">📍</span> Sleman, Yogyakarta
-                        </li>
-                        <li class="flex items-center text-[#4A5568] dark:text-[#CBD5E1] text-base font-medium">
-                            <span class="mr-3 text-xl leading-none">🎓</span> Universitas Negeri Yogyakarta
-                        </li>
-                        <li class="flex items-center text-[#4A5568] dark:text-[#CBD5E1] text-base font-medium">
-                            <span class="mr-3 text-xl leading-none">⭐</span> IPK 3.83 / 4.00
-                        </li>
-                    </ul>
+                <div class="bg-white dark:bg-[#1E293B] p-4 sm:p-5 rounded-2xl shadow-sm border border-[#E2E8F0] dark:border-[#334155] mb-8 transition-colors duration-300">
+                    <x-card.personal-info label="📍 Lokasi" value="Sleman, Yogyakarta" />
+                    <x-card.personal-info label="🎓 Universitas" value="Universitas Negeri Yogyakarta" />
+                    <x-card.personal-info label="⭐ IPK" value="3.83 / 4.00" />
                 </div>
 
                 <!-- Strengths -->
