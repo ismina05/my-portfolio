@@ -18,7 +18,7 @@ return [
             'description' => 'Mengembangkan dan mengustomisasi Electronic Document (E-Doc) pada Sistem Informasi Manajemen Rumah Sakit (SIMRS), mengimplementasikan bridging data, serta menyesuaikan formulir elektronik sesuai kebutuhan operasional rumah sakit.',
             'technologies' => ['PHP', 'JavaScript', 'MySQL'],
             'status' => '2026',
-            'image' => 'https://images.unsplash.com/photo-1516549655169-df83a0774514?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+            'image' => 'image/Edoc.png',
             'github_url' => '#',
             'demo_url' => '#',
             'is_private' => true,
