@@ -10,7 +10,7 @@ return [
             'status' => 'Selesai',
             'image' => 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
             'github_url' => 'https://github.com/ismina05/my-portfolio.git',
-            'demo_url' => '#',
+            'demo_url' => 'http://isminuraini.my.id/',
         ],
         [
             'title' => 'Electronic Document (SIMRS)',
